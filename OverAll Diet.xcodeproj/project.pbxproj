@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566E1CF32297332600264DC2 /* ReminderClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566E1CF22297332600264DC2 /* ReminderClass.swift */; };
+		566E1CF52297339900264DC2 /* AddReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566E1CF42297339900264DC2 /* AddReminderVC.swift */; };
+		566E1CF7229733D400264DC2 /* ReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566E1CF6229733D400264DC2 /* ReminderTableViewController.swift */; };
+		568B3EFB22962767000579EE /* DescriptionZoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568B3EFA22962767000579EE /* DescriptionZoneViewController.swift */; };
+		568B3EFD22962B67000579EE /* ZoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568B3EFC22962B67000579EE /* ZoneViewController.swift */; };
+		568B3F01229639DA000579EE /* PaleloDiet.html in Resources */ = {isa = PBXBuildFile; fileRef = 568B3F00229639DA000579EE /* PaleloDiet.html */; };
+		568B3F0322965513000579EE /* DukanDiet.html in Resources */ = {isa = PBXBuildFile; fileRef = 568B3F0222965512000579EE /* DukanDiet.html */; };
+		568B3F0922965536000579EE /* AtkinsDiet.html in Resources */ = {isa = PBXBuildFile; fileRef = 568B3F0822965536000579EE /* AtkinsDiet.html */; };
+		568B3F0B22965BB6000579EE /* VeganDiet.html in Resources */ = {isa = PBXBuildFile; fileRef = 568B3F0A22965BB6000579EE /* VeganDiet.html */; };
+		56AD94112259719500383ED9 /* AktinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AD94102259719500383ED9 /* AktinViewController.swift */; };
+		56AD94152259D35A00383ED9 /* DescriptionDukanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AD94142259D35A00383ED9 /* DescriptionDukanViewController.swift */; };
+		56AD94172259E7D000383ED9 /* DescriptionPaleoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AD94162259E7D000383ED9 /* DescriptionPaleoViewController.swift */; };
+		56AD94192259FFA300383ED9 /* DescriptionVeganViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AD94182259FFA300383ED9 /* DescriptionVeganViewController.swift */; };
+		56BA5D4322623E8300B15AD6 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BA5D4222623E8300B15AD6 /* NotesViewController.swift */; };
+		56BA5D452262C7AA00B15AD6 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BA5D442262C7AA00B15AD6 /* NotesTableViewController.swift */; };
+		56BA9443224741B20034B26E /* VeganViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BA9442224741B20034B26E /* VeganViewController.swift */; };
+		56C98A0D228DCBDA008E4D2F /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C98A0C228DCBDA008E4D2F /* ExerciseViewController.swift */; };
+		56DF3BD92246ADD10010A8BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF3BD82246ADD10010A8BA /* AppDelegate.swift */; };
+		56DF3BDB2246ADD10010A8BA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF3BDA2246ADD10010A8BA /* MainViewController.swift */; };
+		56DF3BDE2246ADD10010A8BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DF3BDC2246ADD10010A8BA /* Main.storyboard */; };
+		56DF3BE02246ADD20010A8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DF3BDF2246ADD20010A8BA /* Assets.xcassets */; };
+		56DF3BE32246ADD20010A8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DF3BE12246ADD20010A8BA /* LaunchScreen.storyboard */; };
+		56DF3BEE2246ADD20010A8BA /* OverAll_DietTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF3BED2246ADD20010A8BA /* OverAll_DietTests.swift */; };
+		56DF3BF92246ADD20010A8BA /* OverAll_DietUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF3BF82246ADD20010A8BA /* OverAll_DietUITests.swift */; };
+		56DF3C092247336E0010A8BA /* PaleoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF3C082247336E0010A8BA /* PaleoViewController.swift */; };
+		56DF3C0D22473D4D0010A8BA /* DukanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF3C0C22473D4D0010A8BA /* DukanViewController.swift */; };
+		56F602A92259673000C0789C /* DescriptionAktinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F602A82259673000C0789C /* DescriptionAktinViewController.swift */; };
+		6341218322972B5700B60232 /* FinalLegs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6341217822972B4F00B60232 /* FinalLegs.pdf */; };
+		6341218422972B5700B60232 /* Atkin Diet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6341217922972B4F00B60232 /* Atkin Diet.pdf */; };
+		6341218522972B5700B60232 /* Finalbiceps.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6341217A22972B5100B60232 /* Finalbiceps.pdf */; };
+		6341218622972B5700B60232 /* Paleo Diet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6341217B22972B5100B60232 /* Paleo Diet.pdf */; };
+		6341218722972B5700B60232 /* abs final.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6341217C22972B5300B60232 /* abs final.pdf */; };
+		6341218822972B5700B60232 /* Vegan diet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6341217D22972B5300B60232 /* Vegan diet.pdf */; };
+		6341218922972B5700B60232 /* Dukan Diet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6341217E22972B5300B60232 /* Dukan Diet.pdf */; };
+		6341218A22972B5700B60232 /* FinalShoulder.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6341217F22972B5500B60232 /* FinalShoulder.pdf */; };
+		6341218B22972B5700B60232 /* finalback.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6341218022972B5500B60232 /* finalback.pdf */; };
+		6341218C22972B5700B60232 /* Finalchest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6341218122972B5600B60232 /* Finalchest.pdf */; };
+		6341218D22972B5700B60232 /* Zone Diet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6341218222972B5600B60232 /* Zone Diet.pdf */; };
+		6387F75122971CBE0008D3D6 /* ZoneDiet.html in Resources */ = {isa = PBXBuildFile; fileRef = 6387F75022971CBD0008D3D6 /* ZoneDiet.html */; };
+		C518CCD8228B2133007B4864 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C518CCD7228B2133007B4864 /* InfoViewController.swift */; };
+		C52503D622619F8100FDC18B /* OpenExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52503D522619F8100FDC18B /* OpenExerciseViewController.swift */; };
+		C52503D82263052100FDC18B /* GroceryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52503D72263052100FDC18B /* GroceryTableViewController.swift */; };
+		C52503DA22632B8300FDC18B /* AddGroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52503D922632B8300FDC18B /* AddGroceryViewController.swift */; };
+		C528D87022688E7500CD4BA2 /* CalendarListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528D86F22688E7500CD4BA2 /* CalendarListVC.swift */; };
+		C528D87822688EE700CD4BA2 /* SegueIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528D87122688EE500CD4BA2 /* SegueIdentifiers.swift */; };
+		C528D87922688EE700CD4BA2 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528D87222688EE500CD4BA2 /* EventsViewController.swift */; };
+		C528D87A22688EE700CD4BA2 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528D87322688EE600CD4BA2 /* AddEventViewController.swift */; };
+		C528D87B22688EE700CD4BA2 /* EventAddedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528D87422688EE600CD4BA2 /* EventAddedDelegate.swift */; };
+		C528D87C22688EE700CD4BA2 /* CalendarAddedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528D87522688EE700CD4BA2 /* CalendarAddedDelegate.swift */; };
+		C528D87D22688EE700CD4BA2 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528D87622688EE700CD4BA2 /* UIViewExtensions.swift */; };
+		C528D87E22688EE700CD4BA2 /* AddCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528D87722688EE700CD4BA2 /* AddCalendarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56DF3BEA2246ADD20010A8BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DF3BCD2246ADD10010A8BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56DF3BD42246ADD10010A8BA;
+			remoteInfo = "OverAll Diet";
+		};
+		56DF3BF52246ADD20010A8BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DF3BCD2246ADD10010A8BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56DF3BD42246ADD10010A8BA;
+			remoteInfo = "OverAll Diet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		566E1CF22297332600264DC2 /* ReminderClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderClass.swift; sourceTree = "<group>"; };
+		566E1CF42297339900264DC2 /* AddReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderVC.swift; sourceTree = "<group>"; };
+		566E1CF6229733D400264DC2 /* ReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewController.swift; sourceTree = "<group>"; };
+		568B3EFA22962767000579EE /* DescriptionZoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionZoneViewController.swift; sourceTree = "<group>"; };
+		568B3EFC22962B67000579EE /* ZoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneViewController.swift; sourceTree = "<group>"; };
+		568B3F00229639DA000579EE /* PaleloDiet.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PaleloDiet.html; sourceTree = "<group>"; };
+		568B3F0222965512000579EE /* DukanDiet.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DukanDiet.html; sourceTree = "<group>"; };
+		568B3F0822965536000579EE /* AtkinsDiet.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AtkinsDiet.html; sourceTree = "<group>"; };
+		568B3F0A22965BB6000579EE /* VeganDiet.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = VeganDiet.html; sourceTree = "<group>"; };
+		56AD94102259719500383ED9 /* AktinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AktinViewController.swift; sourceTree = "<group>"; };
+		56AD94142259D35A00383ED9 /* DescriptionDukanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionDukanViewController.swift; sourceTree = "<group>"; };
+		56AD94162259E7D000383ED9 /* DescriptionPaleoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionPaleoViewController.swift; sourceTree = "<group>"; };
+		56AD94182259FFA300383ED9 /* DescriptionVeganViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionVeganViewController.swift; sourceTree = "<group>"; };
+		56AD9420225A1D8500383ED9 /* OverAll DietTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OverAll DietTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56AD9421225A1D8500383ED9 /* OverAll DietUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OverAll DietUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BA5D4222623E8300B15AD6 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		56BA5D442262C7AA00B15AD6 /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		56BA9442224741B20034B26E /* VeganViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganViewController.swift; sourceTree = "<group>"; };
+		56C98A0C228DCBDA008E4D2F /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		56DF3BD82246ADD10010A8BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56DF3BDA2246ADD10010A8BA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		56DF3BDD2246ADD10010A8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56DF3BDF2246ADD20010A8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56DF3BE22246ADD20010A8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56DF3BE42246ADD20010A8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DF3BED2246ADD20010A8BA /* OverAll_DietTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverAll_DietTests.swift; sourceTree = "<group>"; };
+		56DF3BEF2246ADD20010A8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DF3BF82246ADD20010A8BA /* OverAll_DietUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverAll_DietUITests.swift; sourceTree = "<group>"; };
+		56DF3BFA2246ADD20010A8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DF3C082247336E0010A8BA /* PaleoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaleoViewController.swift; sourceTree = "<group>"; };
+		56DF3C0C22473D4D0010A8BA /* DukanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DukanViewController.swift; sourceTree = "<group>"; };
+		56F602A52259624900C0789C /* OverAll Diet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OverAll Diet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F602A82259673000C0789C /* DescriptionAktinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionAktinViewController.swift; sourceTree = "<group>"; };
+		6341217822972B4F00B60232 /* FinalLegs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FinalLegs.pdf; sourceTree = "<group>"; };
+		6341217922972B4F00B60232 /* Atkin Diet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Atkin Diet.pdf"; sourceTree = "<group>"; };
+		6341217A22972B5100B60232 /* Finalbiceps.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Finalbiceps.pdf; sourceTree = "<group>"; };
+		6341217B22972B5100B60232 /* Paleo Diet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Paleo Diet.pdf"; sourceTree = "<group>"; };
+		6341217C22972B5300B60232 /* abs final.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "abs final.pdf"; sourceTree = "<group>"; };
+		6341217D22972B5300B60232 /* Vegan diet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Vegan diet.pdf"; sourceTree = "<group>"; };
+		6341217E22972B5300B60232 /* Dukan Diet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dukan Diet.pdf"; sourceTree = "<group>"; };
+		6341217F22972B5500B60232 /* FinalShoulder.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FinalShoulder.pdf; sourceTree = "<group>"; };
+		6341218022972B5500B60232 /* finalback.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = finalback.pdf; sourceTree = "<group>"; };
+		6341218122972B5600B60232 /* Finalchest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Finalchest.pdf; sourceTree = "<group>"; };
+		6341218222972B5600B60232 /* Zone Diet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Zone Diet.pdf"; sourceTree = "<group>"; };
+		6387F75022971CBD0008D3D6 /* ZoneDiet.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ZoneDiet.html; sourceTree = "<group>"; };
+		C518CCD7228B2133007B4864 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		C52503D522619F8100FDC18B /* OpenExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenExerciseViewController.swift; sourceTree = "<group>"; };
+		C52503D72263052100FDC18B /* GroceryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryTableViewController.swift; sourceTree = "<group>"; };
+		C52503D922632B8300FDC18B /* AddGroceryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroceryViewController.swift; sourceTree = "<group>"; };
+		C528D86F22688E7500CD4BA2 /* CalendarListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarListVC.swift; sourceTree = "<group>"; };
+		C528D87122688EE500CD4BA2 /* SegueIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueIdentifiers.swift; sourceTree = "<group>"; };
+		C528D87222688EE500CD4BA2 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		C528D87322688EE600CD4BA2 /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		C528D87422688EE600CD4BA2 /* EventAddedDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventAddedDelegate.swift; sourceTree = "<group>"; };
+		C528D87522688EE700CD4BA2 /* CalendarAddedDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarAddedDelegate.swift; sourceTree = "<group>"; };
+		C528D87622688EE700CD4BA2 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		C528D87722688EE700CD4BA2 /* AddCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCalendarViewController.swift; sourceTree = "<group>"; };
+		E995CD192259D2A300BF0BD7 /* OverAll DietTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OverAll DietTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E995CD1A2259D2A300BF0BD7 /* OverAll DietUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OverAll DietUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56DF3BD22246ADD10010A8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF3BE62246ADD20010A8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF3BF12246ADD20010A8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56DF3BCC2246ADD10010A8BA = {
+			isa = PBXGroup;
+			children = (
+				56DF3BD72246ADD10010A8BA /* OverAll Diet */,
+				56DF3BEC2246ADD20010A8BA /* OverAll DietTests */,
+				56DF3BF72246ADD20010A8BA /* OverAll DietUITests */,
+				56F602A52259624900C0789C /* OverAll Diet.app */,
+				56AD9420225A1D8500383ED9 /* OverAll DietTests.xctest */,
+				56AD9421225A1D8500383ED9 /* OverAll DietUITests.xctest */,
+				E995CD1A2259D2A300BF0BD7 /* OverAll DietUITests.xctest */,
+				E995CD192259D2A300BF0BD7 /* OverAll DietTests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		56DF3BD72246ADD10010A8BA /* OverAll Diet */ = {
+			isa = PBXGroup;
+			children = (
+				568B3F0822965536000579EE /* AtkinsDiet.html */,
+				6387F75022971CBD0008D3D6 /* ZoneDiet.html */,
+				568B3F0A22965BB6000579EE /* VeganDiet.html */,
+				568B3F00229639DA000579EE /* PaleloDiet.html */,
+				568B3F0222965512000579EE /* DukanDiet.html */,
+				6341217C22972B5300B60232 /* abs final.pdf */,
+				6341217922972B4F00B60232 /* Atkin Diet.pdf */,
+				6341217E22972B5300B60232 /* Dukan Diet.pdf */,
+				6341218022972B5500B60232 /* finalback.pdf */,
+				6341217A22972B5100B60232 /* Finalbiceps.pdf */,
+				6341218122972B5600B60232 /* Finalchest.pdf */,
+				6341217822972B4F00B60232 /* FinalLegs.pdf */,
+				6341217F22972B5500B60232 /* FinalShoulder.pdf */,
+				6341217B22972B5100B60232 /* Paleo Diet.pdf */,
+				6341217D22972B5300B60232 /* Vegan diet.pdf */,
+				6341218222972B5600B60232 /* Zone Diet.pdf */,
+				56DF3BD82246ADD10010A8BA /* AppDelegate.swift */,
+				56BA5D442262C7AA00B15AD6 /* NotesTableViewController.swift */,
+				56DF3C082247336E0010A8BA /* PaleoViewController.swift */,
+				56AD94142259D35A00383ED9 /* DescriptionDukanViewController.swift */,
+				56AD94182259FFA300383ED9 /* DescriptionVeganViewController.swift */,
+				56BA5D4222623E8300B15AD6 /* NotesViewController.swift */,
+				568B3EFC22962B67000579EE /* ZoneViewController.swift */,
+				568B3EFA22962767000579EE /* DescriptionZoneViewController.swift */,
+				56DF3BDA2246ADD10010A8BA /* MainViewController.swift */,
+				56DF3BDC2246ADD10010A8BA /* Main.storyboard */,
+				566E1CF6229733D400264DC2 /* ReminderTableViewController.swift */,
+				566E1CF42297339900264DC2 /* AddReminderVC.swift */,
+				566E1CF22297332600264DC2 /* ReminderClass.swift */,
+				56C98A0C228DCBDA008E4D2F /* ExerciseViewController.swift */,
+				56AD94162259E7D000383ED9 /* DescriptionPaleoViewController.swift */,
+				56AD94102259719500383ED9 /* AktinViewController.swift */,
+				56F602A82259673000C0789C /* DescriptionAktinViewController.swift */,
+				56BA9442224741B20034B26E /* VeganViewController.swift */,
+				56DF3C0C22473D4D0010A8BA /* DukanViewController.swift */,
+				C52503D522619F8100FDC18B /* OpenExerciseViewController.swift */,
+				C52503D72263052100FDC18B /* GroceryTableViewController.swift */,
+				C52503D922632B8300FDC18B /* AddGroceryViewController.swift */,
+				C528D86F22688E7500CD4BA2 /* CalendarListVC.swift */,
+				C528D87722688EE700CD4BA2 /* AddCalendarViewController.swift */,
+				C528D87322688EE600CD4BA2 /* AddEventViewController.swift */,
+				C528D87522688EE700CD4BA2 /* CalendarAddedDelegate.swift */,
+				C528D87422688EE600CD4BA2 /* EventAddedDelegate.swift */,
+				C528D87222688EE500CD4BA2 /* EventsViewController.swift */,
+				C528D87122688EE500CD4BA2 /* SegueIdentifiers.swift */,
+				C528D87622688EE700CD4BA2 /* UIViewExtensions.swift */,
+				C518CCD7228B2133007B4864 /* InfoViewController.swift */,
+				56DF3BDF2246ADD20010A8BA /* Assets.xcassets */,
+				56DF3BE12246ADD20010A8BA /* LaunchScreen.storyboard */,
+				56DF3BE42246ADD20010A8BA /* Info.plist */,
+			);
+			path = "OverAll Diet";
+			sourceTree = "<group>";
+		};
+		56DF3BEC2246ADD20010A8BA /* OverAll DietTests */ = {
+			isa = PBXGroup;
+			children = (
+				56DF3BED2246ADD20010A8BA /* OverAll_DietTests.swift */,
+				56DF3BEF2246ADD20010A8BA /* Info.plist */,
+			);
+			path = "OverAll DietTests";
+			sourceTree = "<group>";
+		};
+		56DF3BF72246ADD20010A8BA /* OverAll DietUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56DF3BF82246ADD20010A8BA /* OverAll_DietUITests.swift */,
+				56DF3BFA2246ADD20010A8BA /* Info.plist */,
+			);
+			path = "OverAll DietUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56DF3BD42246ADD10010A8BA /* OverAll Diet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DF3BFD2246ADD20010A8BA /* Build configuration list for PBXNativeTarget "OverAll Diet" */;
+			buildPhases = (
+				56DF3BD12246ADD10010A8BA /* Sources */,
+				56DF3BD22246ADD10010A8BA /* Frameworks */,
+				56DF3BD32246ADD10010A8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OverAll Diet";
+			productName = "OverAll Diet";
+			productReference = 56F602A52259624900C0789C /* OverAll Diet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56DF3BE82246ADD20010A8BA /* OverAll DietTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DF3C002246ADD20010A8BA /* Build configuration list for PBXNativeTarget "OverAll DietTests" */;
+			buildPhases = (
+				56DF3BE52246ADD20010A8BA /* Sources */,
+				56DF3BE62246ADD20010A8BA /* Frameworks */,
+				56DF3BE72246ADD20010A8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56DF3BEB2246ADD20010A8BA /* PBXTargetDependency */,
+			);
+			name = "OverAll DietTests";
+			productName = "OverAll DietTests";
+			productReference = E995CD192259D2A300BF0BD7 /* OverAll DietTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56DF3BF32246ADD20010A8BA /* OverAll DietUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DF3C032246ADD20010A8BA /* Build configuration list for PBXNativeTarget "OverAll DietUITests" */;
+			buildPhases = (
+				56DF3BF02246ADD20010A8BA /* Sources */,
+				56DF3BF12246ADD20010A8BA /* Frameworks */,
+				56DF3BF22246ADD20010A8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56DF3BF62246ADD20010A8BA /* PBXTargetDependency */,
+			);
+			name = "OverAll DietUITests";
+			productName = "OverAll DietUITests";
+			productReference = E995CD1A2259D2A300BF0BD7 /* OverAll DietUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56DF3BCD2246ADD10010A8BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Deakin;
+				TargetAttributes = {
+					56DF3BD42246ADD10010A8BA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					56DF3BE82246ADD20010A8BA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 56DF3BD42246ADD10010A8BA;
+					};
+					56DF3BF32246ADD20010A8BA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 56DF3BD42246ADD10010A8BA;
+					};
+				};
+			};
+			buildConfigurationList = 56DF3BD02246ADD10010A8BA /* Build configuration list for PBXProject "OverAll Diet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56DF3BCC2246ADD10010A8BA;
+			productRefGroup = 56DF3BCC2246ADD10010A8BA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56DF3BD42246ADD10010A8BA /* OverAll Diet */,
+				56DF3BE82246ADD20010A8BA /* OverAll DietTests */,
+				56DF3BF32246ADD20010A8BA /* OverAll DietUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56DF3BD32246ADD10010A8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568B3F0922965536000579EE /* AtkinsDiet.html in Resources */,
+				6341218622972B5700B60232 /* Paleo Diet.pdf in Resources */,
+				6341218422972B5700B60232 /* Atkin Diet.pdf in Resources */,
+				568B3F0322965513000579EE /* DukanDiet.html in Resources */,
+				56DF3BE32246ADD20010A8BA /* LaunchScreen.storyboard in Resources */,
+				56DF3BE02246ADD20010A8BA /* Assets.xcassets in Resources */,
+				6341218722972B5700B60232 /* abs final.pdf in Resources */,
+				6341218522972B5700B60232 /* Finalbiceps.pdf in Resources */,
+				6387F75122971CBE0008D3D6 /* ZoneDiet.html in Resources */,
+				6341218A22972B5700B60232 /* FinalShoulder.pdf in Resources */,
+				6341218D22972B5700B60232 /* Zone Diet.pdf in Resources */,
+				6341218B22972B5700B60232 /* finalback.pdf in Resources */,
+				6341218C22972B5700B60232 /* Finalchest.pdf in Resources */,
+				568B3F01229639DA000579EE /* PaleloDiet.html in Resources */,
+				568B3F0B22965BB6000579EE /* VeganDiet.html in Resources */,
+				6341218322972B5700B60232 /* FinalLegs.pdf in Resources */,
+				56DF3BDE2246ADD10010A8BA /* Main.storyboard in Resources */,
+				6341218822972B5700B60232 /* Vegan diet.pdf in Resources */,
+				6341218922972B5700B60232 /* Dukan Diet.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF3BE72246ADD20010A8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF3BF22246ADD20010A8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56DF3BD12246ADD10010A8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C528D87E22688EE700CD4BA2 /* AddCalendarViewController.swift in Sources */,
+				C52503D622619F8100FDC18B /* OpenExerciseViewController.swift in Sources */,
+				566E1CF32297332600264DC2 /* ReminderClass.swift in Sources */,
+				56F602A92259673000C0789C /* DescriptionAktinViewController.swift in Sources */,
+				56BA5D4322623E8300B15AD6 /* NotesViewController.swift in Sources */,
+				56AD94172259E7D000383ED9 /* DescriptionPaleoViewController.swift in Sources */,
+				C52503DA22632B8300FDC18B /* AddGroceryViewController.swift in Sources */,
+				C518CCD8228B2133007B4864 /* InfoViewController.swift in Sources */,
+				C528D87B22688EE700CD4BA2 /* EventAddedDelegate.swift in Sources */,
+				C528D87A22688EE700CD4BA2 /* AddEventViewController.swift in Sources */,
+				568B3EFB22962767000579EE /* DescriptionZoneViewController.swift in Sources */,
+				56DF3C0D22473D4D0010A8BA /* DukanViewController.swift in Sources */,
+				56DF3C092247336E0010A8BA /* PaleoViewController.swift in Sources */,
+				C528D87C22688EE700CD4BA2 /* CalendarAddedDelegate.swift in Sources */,
+				56C98A0D228DCBDA008E4D2F /* ExerciseViewController.swift in Sources */,
+				56AD94152259D35A00383ED9 /* DescriptionDukanViewController.swift in Sources */,
+				56DF3BDB2246ADD10010A8BA /* MainViewController.swift in Sources */,
+				C52503D82263052100FDC18B /* GroceryTableViewController.swift in Sources */,
+				C528D87822688EE700CD4BA2 /* SegueIdentifiers.swift in Sources */,
+				56BA9443224741B20034B26E /* VeganViewController.swift in Sources */,
+				566E1CF52297339900264DC2 /* AddReminderVC.swift in Sources */,
+				56BA5D452262C7AA00B15AD6 /* NotesTableViewController.swift in Sources */,
+				56AD94192259FFA300383ED9 /* DescriptionVeganViewController.swift in Sources */,
+				566E1CF7229733D400264DC2 /* ReminderTableViewController.swift in Sources */,
+				C528D87D22688EE700CD4BA2 /* UIViewExtensions.swift in Sources */,
+				568B3EFD22962B67000579EE /* ZoneViewController.swift in Sources */,
+				56AD94112259719500383ED9 /* AktinViewController.swift in Sources */,
+				C528D87022688E7500CD4BA2 /* CalendarListVC.swift in Sources */,
+				C528D87922688EE700CD4BA2 /* EventsViewController.swift in Sources */,
+				56DF3BD92246ADD10010A8BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF3BE52246ADD20010A8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DF3BEE2246ADD20010A8BA /* OverAll_DietTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF3BF02246ADD20010A8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DF3BF92246ADD20010A8BA /* OverAll_DietUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56DF3BEB2246ADD20010A8BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56DF3BD42246ADD10010A8BA /* OverAll Diet */;
+			targetProxy = 56DF3BEA2246ADD20010A8BA /* PBXContainerItemProxy */;
+		};
+		56DF3BF62246ADD20010A8BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56DF3BD42246ADD10010A8BA /* OverAll Diet */;
+			targetProxy = 56DF3BF52246ADD20010A8BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56DF3BDC2246ADD10010A8BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DF3BDD2246ADD10010A8BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56DF3BE12246ADD20010A8BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DF3BE22246ADD20010A8BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56DF3BFB2246ADD20010A8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56DF3BFC2246ADD20010A8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56DF3BFE2246ADD20010A8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "OverAll Diet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deakin.OverAll-Diet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56DF3BFF2246ADD20010A8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "OverAll Diet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deakin.OverAll-Diet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56DF3C012246ADD20010A8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "OverAll DietTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deakin.OverAll-DietTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverAll Diet.app/OverAll Diet";
+			};
+			name = Debug;
+		};
+		56DF3C022246ADD20010A8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "OverAll DietTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deakin.OverAll-DietTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverAll Diet.app/OverAll Diet";
+			};
+			name = Release;
+		};
+		56DF3C042246ADD20010A8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = "OverAll DietUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deakin.OverAll-DietUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OverAll Diet";
+			};
+			name = Debug;
+		};
+		56DF3C052246ADD20010A8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = "OverAll DietUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deakin.OverAll-DietUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OverAll Diet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56DF3BD02246ADD10010A8BA /* Build configuration list for PBXProject "OverAll Diet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DF3BFB2246ADD20010A8BA /* Debug */,
+				56DF3BFC2246ADD20010A8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DF3BFD2246ADD20010A8BA /* Build configuration list for PBXNativeTarget "OverAll Diet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DF3BFE2246ADD20010A8BA /* Debug */,
+				56DF3BFF2246ADD20010A8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DF3C002246ADD20010A8BA /* Build configuration list for PBXNativeTarget "OverAll DietTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DF3C012246ADD20010A8BA /* Debug */,
+				56DF3C022246ADD20010A8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DF3C032246ADD20010A8BA /* Build configuration list for PBXNativeTarget "OverAll DietUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DF3C042246ADD20010A8BA /* Debug */,
+				56DF3C052246ADD20010A8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56DF3BCD2246ADD10010A8BA /* Project object */;
+}
